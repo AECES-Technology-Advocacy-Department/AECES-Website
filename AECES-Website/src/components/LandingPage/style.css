@@ -1,0 +1,38 @@
+.cs-hero-section {
+    height: 1000px;
+    overflow: hidden;
+}
+
+.cs-hero-bg {
+    width: 150%;
+    margin-left: -500px;
+    margin-top: -200px;
+    transform: rotate(200deg);
+    z-index: 2;
+}
+
+.cs-hero-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    background-color: black;
+    z-Index: 1;
+}
+
+.cs-hero-card {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    z-index: 3;
+}
+
+
+.cs-lm-btn {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    z-index: 3;
+}

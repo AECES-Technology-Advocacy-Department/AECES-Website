@@ -1,10 +1,11 @@
-import Block from "./components/block.tsx";
+import NavBar from "./components/LandingPage/NavBar.tsx";
+import HeroSection from "./components/LandingPage/HeroSection.tsx";
 
 function App() {
   return (
     <>
-      <Block />
-      <Block />
+      <NavBar />
+      <HeroSection />
     </>
   );
 }

@@ -1,6 +1,6 @@
 function Block() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Navbar
@@ -60,7 +60,7 @@ function Block() {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
+              <a className="nav-link disabled" aria-disabled="false">
                 Disabled
               </a>
             </li>
