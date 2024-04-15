@@ -1,5 +1,5 @@
-import "./style.css"
-// all class names with prefix "cs-" is from this custom css file
+
+// all class names with prefix "cs-" is from the style.css file
 
 function HeroSection() {
     return (

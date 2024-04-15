@@ -1,11 +1,13 @@
-import NavBar from "./components/LandingPage/NavBar.tsx";
-import HeroSection from "./components/LandingPage/HeroSection.tsx";
+import LandingPage from "./components/LandingPage.tsx";
+import Body from "./components/Body.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <HeroSection />
+      <LandingPage />
+      <Body />
+      <Footer />
     </>
   );
 }
