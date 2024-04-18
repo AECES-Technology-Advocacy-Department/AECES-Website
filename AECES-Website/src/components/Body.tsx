@@ -3,7 +3,7 @@ import Projects from "./Body/Projects.tsx"
 function Body() {
     return (
         <>
-            <div className="body-container">
+            <div className="body-container position-relative">
                 <Projects /> 
             </div>
         </>
