@@ -3,8 +3,9 @@ import Projects from "./Body/Projects.tsx"
 function Body() {
     return (
         <>
-            <div className=""></div>
-            <Projects /> 
+            <div className="body-container">
+                <Projects /> 
+            </div>
         </>
     )
 }
