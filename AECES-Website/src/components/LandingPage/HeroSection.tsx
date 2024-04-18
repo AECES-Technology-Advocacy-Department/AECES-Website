@@ -1,4 +1,3 @@
-
 // all class names with prefix "cs-" is from the style.css file
 
 function HeroSection() {
