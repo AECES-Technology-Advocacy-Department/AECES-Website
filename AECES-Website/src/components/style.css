@@ -44,3 +44,13 @@
     height: 3000px;
     background-color:lightgray;
 }
+
+.projects-container {
+    margin: 100px;
+    height: 500px;
+    background-color: black;
+}
+
+.projects-card {
+
+}
