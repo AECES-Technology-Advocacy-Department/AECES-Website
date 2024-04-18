@@ -1,3 +1,4 @@
+import ExecutiveBoard from "./Body/ExecutiveBoard.tsx"
 import Projects from "./Body/Projects.tsx"
 
 function Body() {
@@ -5,6 +6,7 @@ function Body() {
         <>
             <div className="body-container position-relative">
                 <Projects /> 
+                <ExecutiveBoard />
             </div>
         </>
     )

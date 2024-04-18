@@ -41,8 +41,21 @@
 }
 
 .body-container {
+    top: 0px;
     height: 3000px;
     background-color:lightgray;
+}
+
+
+.projects-container {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 750px;
+    background-color:darkgray;
+    width: calc(100% - 100px);
+    
 }
 
 .projects-header {
@@ -51,20 +64,15 @@
     left: 50px;
 }
 
-.projects-container {
+.proj-card-container {
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 750px;
-    background-color:darkgray;
-    width: calc(100% - 100px);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .project-card {
-    margin-top: 70px;
+    margin-top: 0px;
     height: 600px;
     width: 450px;
     background-color:cadetblue;
@@ -81,5 +89,49 @@
 }
 
 .project-desc {
+    margin: 15px;
+}
+
+.eb-container {
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 750px;
+    background-color: darkgray;
+    width: calc(100% - 100px);
+}
+
+.eb-header {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.eb-card-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.eb-card {
+    margin-top: 0px;
+    height: 600px;
+    width: 450px;
+    background-color: cadetblue;
+}
+
+.eb-position {
+    margin: 15px;
+}
+
+.eb-img {
+    margin: 15px;
+    width: 420px;
+    height: 250px;
+}
+
+.eb-desc {
     margin: 15px;
 }
